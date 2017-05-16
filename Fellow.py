@@ -1,9 +1,12 @@
-"""Sub-class Fellow which inherits from class Person
-Blueprint for introducing a new Fellow to the system."""
+from person import Person
+
 
 class Fellow(Person):
-    def __init__(self, person_type, first_name, surname, wants_accomodation):
-        self.person_type = "Fellow"
+    """Sub-class Fellow which inherits from class Person
+    Blueprint for introducing a new Fellow to the system."""
+    def __init__(self, person_type, first_name, surname, wants_accommodation="N"):
+        super(Fellow, self).__init__(person_type, first_name, surname)
+        self.person_type = "fellow"
         self.first_name = first_name
         self.surname = surname
-        self.wants_accomodation = "N"
+        self.wants_accommodation = wants_accommodation
