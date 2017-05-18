@@ -1,0 +1,13 @@
+.cache
+/__pycache__
+/bc-18-project
+.idea/.name
+.idea/dictionaries/
+.idea/workspace.xml
+.idea/bc-18-project.iml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+
