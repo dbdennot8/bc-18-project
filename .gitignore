@@ -1,6 +1,5 @@
 .cache
 /__pycache__
-/bc-18-project
 .idea/.name
 .idea/dictionaries/
 .idea/workspace.xml
@@ -10,6 +9,7 @@
 .idea/modules.xml
 .idea/scopes/scope_settings.xml
 .idea/vcs.xml
+bcENV/
 <<<<<<< HEAD
 =======
 .idea/
